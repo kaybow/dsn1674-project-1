@@ -32,15 +32,19 @@ header {
 
 nav a {
 	text-align: center;
-	background-color: white;
+	background-color: #afaf58;
+	color: white;
 	padding: 0.5em 0.75em;
 	text-decoration: none;
 	border-radius: 4px;
 }
 
+nav a:hover {background-color: #9e1e62;
+}
 nav li {
 	display: inline-block;
 	padding-bottom: 1em;
+
 }
 
 nav ul {
@@ -67,10 +71,11 @@ cite {
 
 .footer {
 	background-color: yellow;
+	padding: 1em;
 }
 
 figure {
-	text-align: center;red
+	text-align: center
 }
 
 dd {
