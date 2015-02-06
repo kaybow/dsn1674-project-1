@@ -9,13 +9,12 @@ body {
 
 h1,h2,h3 {
 	font-family: 'sigmar one';
-	color: hotpink;
+	color: red;
 }
 
 h1 {
 	font-weight: bold;
 	font-size: 3rem;
-	background-color: yellow;
 	text-align: center;
 	padding: 1em 2em 0.5em 3em;
 	margin: 0em;
@@ -41,11 +40,17 @@ nav a {
 
 nav li {
 	display: inline-block;
+	padding-bottom: 1em;
+}
+
+nav ul {
+	text-align: center
 }
 
 
 figure {
 	border: 2px solid #333;
+	background-color: yellow;
 	border-radius: 10px;
 	padding: 1em 2em;
 	margin: 0em;
@@ -62,4 +67,8 @@ cite {
 
 .footer {
 	background-color: yellow;
+}
+
+figure {
+	text-align: center;red
 }
