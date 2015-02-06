@@ -17,4 +17,41 @@ h1 {
 	font-size: 3rem;
 	background-color: yellow;
 	text-align: center;
+	padding: 1em 2em 0.5em 3em;
+	margin: 0em;
+}
+
+header {
+	background-color: yellow;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	text-align: center;
+	background-color: white;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+nav li {
+	display: inline-block;
+}
+
+
+figure {
+	border: 2px solid #333;
+	border-radius: 10px;
+	padding: 1em 2em;
+	margin: 0em;
+}
+
+img {
+	width: 100%;
+}
+
+cite {
+	text-align: right;
+	display: block;
 }
