@@ -1,6 +1,6 @@
 html {
-	background-color: white
-	font-family: georgia;
+	background-color: white;
+	font-family: 'georgia', serif;
 }
 
 body {
@@ -19,6 +19,10 @@ h1 {
 	text-align: center;
 	padding: 1em 2em 0.5em 3em;
 	margin: 0em;
+}
+
+h2 {
+	border-top: 1em
 }
 
 header {
@@ -54,4 +58,8 @@ img {
 cite {
 	text-align: right;
 	display: block;
+}
+
+.footer {
+	background-color: yellow;
 }
