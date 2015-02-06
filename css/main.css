@@ -8,5 +8,13 @@ body {
 }
 
 h1,h2,h3 {
-	font-family: 'sigmar one'
+	font-family: 'sigmar one';
+	color: hotpink;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 3rem;
+	background-color: yellow;
+	text-align: center;
 }
