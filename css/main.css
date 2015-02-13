@@ -21,7 +21,10 @@ h1 {
 }
 
 h2 {
-	border-top: 1em
+	border-top: 3px solid;
+	border-color: #ffea02;
+	padding-top: 1rem;
+
 }
 
 header {
@@ -71,7 +74,8 @@ cite {
 
 .footer {
 	background-color: yellow;
-	padding: 1em;
+	padding: 2em;
+	text-align: center;
 }
 
 figure {
@@ -80,4 +84,25 @@ figure {
 
 dd {
 	margin: 0;
+}
+
+dl {
+	line-height: 1.5rem;
+}
+
+blockquote {
+	color: #afaf58;
+	text-align: center;
+}
+
+cite {
+	text-align: center;
+}
+
+.quote {
+	line-height: 1;
+	margin: 0;
+	font-size: 6rem;
+	text-align: center;
+	color: #afaf58 ;
 }
